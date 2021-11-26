@@ -1,0 +1,14 @@
+CREATE DATABASE Mi_Licencia;
+
+CREATE TABLE Datos(
+
+	Nombres VARCHAR(20),
+	Apellidos VARCHAR(30),
+	Email VARCHAR (40),
+	Contraseña VARCHAR(20),
+	Telefono VARCHAR(15),
+	FechaDeNacimiento DATE,
+	Usuario VARCHAR(30),
+	PRIMARY KEY(Usuario)
+	
+);
